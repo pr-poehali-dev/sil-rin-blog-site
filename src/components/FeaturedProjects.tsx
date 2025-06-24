@@ -70,7 +70,7 @@ const FeaturedProjects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-white rounded-2xl border border-gray-100 hover:border-purple-200 transition-all duration-300 hover:shadow-lg overflow-hidden group"
+              className="bg-white rounded-2xl border border-gray-100 hover:border-sky-200 transition-all duration-300 hover:shadow-lg overflow-hidden group"
             >
               {/* Project Image */}
               <div className="relative overflow-hidden">
@@ -91,7 +91,7 @@ const FeaturedProjects = () => {
               {/* Project Content */}
               <div className="p-6">
                 <div className="flex justify-between items-start mb-3">
-                  <h3 className="text-xl font-semibold text-gray-900 group-hover:text-purple-700 transition-colors">
+                  <h3 className="text-xl font-semibold text-gray-900 group-hover:text-sky-600 transition-colors">
                     {project.title}
                   </h3>
                   <span
@@ -105,7 +105,7 @@ const FeaturedProjects = () => {
                   {project.description}
                 </p>
 
-                <div className="flex items-center text-purple-600 text-sm font-medium">
+                <div className="flex items-center text-sky-600 text-sm font-medium">
                   <span>Узнать больше</span>
                   <Icon
                     name="ArrowRight"
@@ -120,11 +120,11 @@ const FeaturedProjects = () => {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-purple-50 to-green-50 rounded-2xl p-8">
+          <div className="bg-gradient-to-r from-sky-50 to-blue-50 rounded-2xl p-8">
             <Icon
               name="Lightbulb"
               size={32}
-              className="text-purple-600 mx-auto mb-4"
+              className="text-sky-600 mx-auto mb-4"
             />
             <h3 className="text-2xl font-semibold text-gray-900 mb-3">
               Есть идеи для сотрудничества?
@@ -133,7 +133,7 @@ const FeaturedProjects = () => {
               Мы всегда открыты для новых творческих проектов и интересных
               предложений
             </p>
-            <button className="bg-purple-600 text-white px-6 py-3 rounded-full hover:bg-purple-700 transition-colors font-medium">
+            <button className="bg-sky-500 text-white px-6 py-3 rounded-full hover:bg-sky-600 transition-colors font-medium">
               Связаться с нами
             </button>
           </div>

@@ -9,12 +9,12 @@ const About = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-purple-50 to-green-50 py-20">
+        <section className="bg-gradient-to-br from-sky-50 to-blue-50 py-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <Icon
               name="BookOpen"
               size={48}
-              className="text-purple-600 mx-auto mb-6"
+              className="text-sky-600 mx-auto mb-6"
             />
             <h1 className="text-4xl lg:text-5xl font-serif font-light text-gray-900 mb-6">
               О нашем блоге
@@ -44,11 +44,11 @@ const About = () => {
                 Что вы найдёте здесь
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                <div className="bg-purple-50 rounded-xl p-6">
+                <div className="bg-sky-50 rounded-xl p-6">
                   <Icon
                     name="PenTool"
                     size={24}
-                    className="text-purple-600 mb-3"
+                    className="text-sky-600 mb-3"
                   />
                   <h3 className="font-semibold text-gray-900 mb-2">
                     Процесс написания
@@ -57,12 +57,8 @@ const About = () => {
                     Откровенные заметки о том, как рождаются наши истории
                   </p>
                 </div>
-                <div className="bg-green-50 rounded-xl p-6">
-                  <Icon
-                    name="Users"
-                    size={24}
-                    className="text-green-600 mb-3"
-                  />
+                <div className="bg-blue-50 rounded-xl p-6">
+                  <Icon name="Users" size={24} className="text-blue-500 mb-3" />
                   <h3 className="font-semibold text-gray-900 mb-2">
                     Совместное творчество
                   </h3>

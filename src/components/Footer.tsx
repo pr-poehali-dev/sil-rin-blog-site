@@ -16,13 +16,13 @@ const Footer = () => {
             </p>
             <div className="flex justify-center md:justify-start space-x-4">
               <div className="bg-white rounded-full p-2 shadow-sm">
-                <Icon name="BookOpen" size={18} className="text-purple-600" />
+                <Icon name="BookOpen" size={18} className="text-sky-600" />
               </div>
               <div className="bg-white rounded-full p-2 shadow-sm">
-                <Icon name="Palette" size={18} className="text-purple-600" />
+                <Icon name="Palette" size={18} className="text-sky-600" />
               </div>
               <div className="bg-white rounded-full p-2 shadow-sm">
-                <Icon name="Gamepad2" size={18} className="text-purple-600" />
+                <Icon name="Gamepad2" size={18} className="text-sky-600" />
               </div>
             </div>
           </div>
@@ -33,25 +33,25 @@ const Footer = () => {
             <nav className="space-y-2">
               <a
                 href="/"
-                className="block text-sm text-gray-600 hover:text-purple-600 transition-colors"
+                className="block text-sm text-gray-600 hover:text-sky-600 transition-colors"
               >
                 Главная
               </a>
               <a
                 href="/about"
-                className="block text-sm text-gray-600 hover:text-purple-600 transition-colors"
+                className="block text-sm text-gray-600 hover:text-sky-600 transition-colors"
               >
                 О блоге
               </a>
               <a
                 href="/projects"
-                className="block text-sm text-gray-600 hover:text-purple-600 transition-colors"
+                className="block text-sm text-gray-600 hover:text-sky-600 transition-colors"
               >
                 Проекты
               </a>
               <a
                 href="/team"
-                className="block text-sm text-gray-600 hover:text-purple-600 transition-colors"
+                className="block text-sm text-gray-600 hover:text-sky-600 transition-colors"
               >
                 Команда
               </a>

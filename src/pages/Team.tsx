@@ -30,12 +30,12 @@ const Team = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-purple-50 to-green-50 py-20">
+        <section className="bg-gradient-to-br from-sky-50 to-blue-50 py-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <Icon
               name="Users"
               size={48}
-              className="text-purple-600 mx-auto mb-6"
+              className="text-sky-600 mx-auto mb-6"
             />
             <h1 className="text-4xl lg:text-5xl font-serif font-light text-gray-900 mb-6">
               Наша команда
@@ -64,7 +64,7 @@ const Team = () => {
                     <h3 className="text-2xl font-serif font-semibold text-gray-900 mb-1">
                       {member.name}
                     </h3>
-                    <p className="text-purple-600 font-medium">{member.role}</p>
+                    <p className="text-sky-600 font-medium">{member.role}</p>
                   </div>
 
                   <p className="text-gray-600 text-center mb-6 leading-relaxed">
@@ -79,7 +79,7 @@ const Team = () => {
                       {member.strengths.map((strength, idx) => (
                         <span
                           key={idx}
-                          className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium"
+                          className="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-sm font-medium"
                         >
                           {strength}
                         </span>
@@ -92,11 +92,11 @@ const Team = () => {
 
             {/* Collaboration */}
             <div className="mt-16 text-center">
-              <div className="bg-gradient-to-r from-purple-50 to-green-50 rounded-2xl p-12">
+              <div className="bg-gradient-to-r from-sky-50 to-blue-50 rounded-2xl p-12">
                 <Icon
                   name="Heart"
                   size={32}
-                  className="text-purple-600 mx-auto mb-4"
+                  className="text-sky-600 mx-auto mb-4"
                 />
                 <h3 className="text-3xl font-serif font-light text-gray-900 mb-4">
                   Вместе мы сильнее

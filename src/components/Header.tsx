@@ -29,9 +29,9 @@ const Header = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`text-sm font-medium transition-colors duration-200 hover:text-purple-600 ${
+                className={`text-sm font-medium transition-colors duration-200 hover:text-sky-500 ${
                   location.pathname === item.path
-                    ? "text-purple-600 border-b-2 border-purple-600"
+                    ? "text-sky-600 border-b-2 border-sky-600"
                     : "text-gray-700"
                 }`}
               >
@@ -57,9 +57,9 @@ const Header = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`text-sm font-medium transition-colors duration-200 hover:text-purple-600 ${
+                  className={`text-sm font-medium transition-colors duration-200 hover:text-sky-500 ${
                     location.pathname === item.path
-                      ? "text-purple-600"
+                      ? "text-sky-600"
                       : "text-gray-700"
                   }`}
                   onClick={() => setIsMobileMenuOpen(false)}

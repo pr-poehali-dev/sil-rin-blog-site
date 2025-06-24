@@ -63,13 +63,9 @@ const Links = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-purple-50 to-green-50 py-20">
+        <section className="bg-gradient-to-br from-sky-50 to-blue-50 py-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <Icon
-              name="Link"
-              size={48}
-              className="text-purple-600 mx-auto mb-6"
-            />
+            <Icon name="Link" size={48} className="text-sky-600 mx-auto mb-6" />
             <h1 className="text-4xl lg:text-5xl font-serif font-light text-gray-900 mb-6">
               Полезные ссылки
             </h1>
@@ -91,12 +87,12 @@ const Links = () => {
                 <a
                   key={link.name}
                   href={link.url}
-                  className="bg-white border border-gray-100 rounded-2xl p-6 hover:border-purple-200 hover:shadow-lg transition-all duration-300 text-center group"
+                  className="bg-white border border-gray-100 rounded-2xl p-6 hover:border-sky-200 hover:shadow-lg transition-all duration-300 text-center group"
                 >
                   <Icon
                     name={link.icon}
                     size={32}
-                    className="text-purple-600 mx-auto mb-4 group-hover:scale-110 transition-transform"
+                    className="text-sky-600 mx-auto mb-4 group-hover:scale-110 transition-transform"
                   />
                   <h3 className="font-semibold text-gray-900 mb-2">
                     {link.name}
@@ -122,11 +118,11 @@ const Links = () => {
                       <a
                         key={resource.name}
                         href={resource.url}
-                        className="block bg-white rounded-lg p-4 hover:bg-purple-50 transition-colors group"
+                        className="block bg-white rounded-lg p-4 hover:bg-sky-50 transition-colors group"
                       >
                         <div className="flex items-center justify-between">
                           <div>
-                            <h4 className="font-medium text-gray-900 group-hover:text-purple-700">
+                            <h4 className="font-medium text-gray-900 group-hover:text-sky-600">
                               {resource.name}
                             </h4>
                             <p className="text-gray-600 text-sm">
@@ -136,7 +132,7 @@ const Links = () => {
                           <Icon
                             name="ExternalLink"
                             size={16}
-                            className="text-gray-400 group-hover:text-purple-600"
+                            className="text-gray-400 group-hover:text-sky-600"
                           />
                         </div>
                       </a>
