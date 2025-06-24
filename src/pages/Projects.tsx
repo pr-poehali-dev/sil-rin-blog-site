@@ -1,17 +1,19 @@
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import FeaturedProjects from "@/components/FeaturedProjects";
 import Footer from "@/components/Footer";
+import FeaturedProjects from "@/components/FeaturedProjects";
 
-const Index = () => {
+const Projects = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <Hero />
-      <FeaturedProjects />
+
+      <main>
+        <FeaturedProjects />
+      </main>
+
       <Footer />
     </div>
   );
 };
 
-export default Index;
+export default Projects;
